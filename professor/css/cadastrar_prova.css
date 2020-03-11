@@ -1,0 +1,51 @@
+#box{
+	height:300px;
+	width:830px;
+	font:15px Arial, Helvetica, sans-serif;
+	  background-color: rgba(0, 0, 0, .6); 
+  box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,.5);
+      border:2px solid rgba(0,0,0,.5);
+	}
+#box table{
+	
+	padding:10px;
+	height:auto;
+	width:auto;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box input{
+	
+	padding:5px;
+	height:20px;
+	width:250px;
+	color:black;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box textarea{
+
+	padding:5px;
+	height:80px;
+	width:783px;
+	color:black;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box select{
+	
+	padding:5px;
+	height:32px;
+	width:260px;
+	color:black;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box .input{
+	
+	padding:5px;
+	height:40px;
+	width:90px;
+	background:green;
+	color:#FFF;
+	cursor:pointer;
+	font:15px Arial, Helvetica, sans-serif;
+	}

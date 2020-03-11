@@ -1,0 +1,107 @@
+
+#box{
+	  width: 50%;
+      float: left;
+      margin-bottom: 15px;
+
+	}
+	
+#relatorios{
+	
+	width:40%;
+	height:49%;
+	position: relative;
+	left: 0%;
+	top:12%;
+	}
+#relatorios ul{
+	text-align:left;
+	margin:30px 0 0 0;
+	list-style-image:url(../img/seta.png);
+	}
+#relatorios ul h1{
+	font:20px Arial, Helvetica, sans-serif;
+	margin:0 0 10px -22px;
+	position: relative;
+	
+	}
+#relatorios ul li{
+	margin:0 0 8px 0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:white;
+	}
+#relatorios .ul{
+	list-style:inside;
+	}
+#relatorios h1 strong{
+	
+	color: black;
+}
+#relatorios ul .li{
+	margin:0 0 8px 0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666;
+	}
+	
+	
+#notificacoes{
+	float:right;
+	width:55%;
+	margin:0 3px 0 0;
+	text-align:left;
+	height:40%;
+	color: white;
+	}
+#notificacoes h1{
+	font:300% Arial, Helvetica, sans-serif;
+	color:black;
+	position: absolute;
+	top: 8%;
+	left: 56%;
+
+	}
+#avisos_notificacoes{
+	position: absolute;
+	top: 14%;
+	left: 56%;
+	border:1px solid #000;
+	border-radius: 4px;
+	float:left;
+	width: 43%;
+margin: 0 10px 0 0;
+height: 62%;
+	}
+	.border{
+	    background:#001e2d;
+	    background-color: rgba(0, 0, 0, .6);
+	    width: 25%;
+		height: 62%;
+		left: 0%;
+	    top: 7%; 
+	    margin-top: 2%;
+	    margin-left: 1%;
+	    position: absolute; 
+	    box-sizing: border-box;
+	    overflow: hidden;
+	    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	    border:2px solid rgba(0,0,0,.5);
+  }
+  .text {
+ border-color: blue;
+              color: white;
+               width: 348px;
+              height: 30px;
+             box-sizing: border-box;
+              overflow: hidden;
+              box-shadow: 0 25px 50px rgba(0,0,0,.5);
+              border:2px solid rgba(0,0,0,.5);
+  }
+  .texto{
+                padding: 1px;
+ }
+	  @media (min-width: 576px){
+	  	#box{
+	  		
+	  	}
+	  }
+

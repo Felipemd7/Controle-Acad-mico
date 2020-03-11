@@ -1,0 +1,231 @@
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #363636;
+  color: white;
+}		 
+
+
+
+/*=================================== Aluno ================================*/
+
+#campo {
+	border-color: #cccccc;
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 4px;
+	padding-right: 20px;
+}
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+.campo select option {
+    padding-right: 1em;
+}
+
+.botao {
+  
+  background-color: #4CAF50;
+  size: 10px;
+  color: white;
+  width: 100%;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.botao:hover {
+    background: #43CD80;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+#box_aluno{
+	width: 80%;
+	margin-left: 15%;
+	margin-top: 2%;
+	font:15px Arial, Helvetica, sans-serif;
+	text-align:left;
+	}
+#box_aluno .a2{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:30px 0 10px 37px;
+	color:black;
+	background:white;
+	text-decoration:none;
+	padding:10px;
+	border:1px solid #000;
+	border-radius: 5px;
+	}
+#box_aluno .a2:hover{
+	border:1px solid #0FF;
+	color:white;
+	background:black;
+	}
+#box_aluno h1{
+	font:20px Arial, Helvetica, sans-serif;
+	margin:15px 0 10px 37px;
+	color:black;
+	}
+#box_aluno h2{
+	font:15px Arial, Helvetica, sans-serif;
+	margin:2px 0 0 37px;
+	color:#FF0;
+	}
+#box_aluno table{
+	border:1px solid #333;
+	padding:10px;
+	background:#FFF;
+	margin:0 0 10px 0;
+	margin:auto;
+	font:15px Arial, Helvetica, sans-serif;
+	text-align:left;
+	}
+#box_aluno h3{
+	font:18px Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+	color:black;
+	}
+#box_aluno .a{
+	margin:0 5px 0 0;
+	}
+
+
+/*=================================== CADASTRAR Aluno ================================*/
+	
+#cadastra_estudante{
+	width:978px;
+	background:#DCDCDC;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin:-20px 0 20px 182px;
+	border:1px solid #333;
+	}
+	
+#cadastra_estudante .a2{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:30px 0 10px 37px;
+	color:#FFF;
+	background:#090;
+	text-decoration:none;
+	padding:10px;
+	border:1px solid #000;
+	}
+#cadastra_estudante .a2:hover{
+	border:1px solid #0FF;
+	background:#030;
+	}
+
+#cadastra_estudante td{
+	   padding: 0px 0px 0px 10px; 
+	}
+
+	
+
+#cadastra_estudante h1{
+		color: black;
+	    size: 20px;
+        font-family: 'Lobster';
+		margin:15px 0 10px 37px;
+	}
+#cadastra_estudante h2{
+	font:15px Arial, Helvetica, sans-serif;
+	margin:2px 0 0 37px;
+	color:#900;
+	}
+#cadastra_estudante table{
+	border:1px solid #333;
+	padding:10px;
+	background:#FFF;
+	margin:0 0 10px 0;
+	margin:auto;
+	font:15px Arial, Helvetica, sans-serif;
+	text-align:left;
+	width: 99%;
+	}
+#cadastra_estudante input[type=text], input[type=email]{
+		font:12px Arial, Helvetica, sans-serif;
+		margin:2px 0 15px 0;
+		padding:5px;
+		width:89%;
+		color:#000;
+	}
+
+
+#cadastra_estudante select{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:2px 0 15px 0;
+	padding:5px;
+	height:30px;
+	width:292px;
+	color:#000;
+	}
+#cadastra_estudante textarea{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:2px 0 15px 0;
+	padding:5px;
+	height:69px;
+	width:98%;
+	color:#000;
+	}
+#cadastra_estudante .input{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+	padding:5px;
+	width:100px;
+	background:#039;
+	height:40px;
+	color:#FFF;
+	}
+#cadastra_estudante h3{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+	color:#900;
+	}
+#cadastra_estudante .a{
+	margin:0 5px 0 0;
+	}
+#cadastra_estudante h4{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0 0 10px 10px;
+	color:#900;
+	width:900px;
+	height:auto;
+	padding:10px;
+	background:#FFF;
+	}
